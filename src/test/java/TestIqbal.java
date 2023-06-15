@@ -25,6 +25,6 @@ public class TestIqbal {
 
         webDriver.findElement(By.id("checkout")).click();
 
-//        webDriver.close();
+        webDriver.close();
     }
 }
