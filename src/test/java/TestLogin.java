@@ -1,6 +1,5 @@
 import org.junit.After;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -15,6 +14,7 @@ public class TestLogin {
         webDriver.manage().window().fullscreen();
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
+
     @After
     public void tearDown() {
         webDriver.close();
