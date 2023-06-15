@@ -16,7 +16,7 @@ public class TestAsiyah {
       webDriver.findElement(By.id("user-name")).sendKeys("standard_user");
       webDriver.findElement(By.id("password")).sendKeys("secret_sauce");
       webDriver.findElement(By.id("login-button")).click();
-      webDriver.findElement(By .id("shopping chart container")).click();
+      webDriver.findElement(By .id("shopping_chart_container")).click();
       webDriver.findElement(By .id("checkout-button")).click();
         webDriver.close();
 

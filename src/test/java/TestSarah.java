@@ -26,11 +26,11 @@ public class TestSarah {
 
         webDriver.findElement(By.id("checkout")).click();
 
-        webDriver.findElement(By.id("first-name")).sendKeys("Peter");
+        webDriver.findElement(By.id("first-name")).sendKeys("sarah");
 
-        webDriver.findElement(By.id("last-name")).sendKeys("Parker");
+        webDriver.findElement(By.id("last-name")).sendKeys("siahaan");
 
-        webDriver.findElement(By.id("postal-code")).sendKeys("1234");
+        webDriver.findElement(By.id("postal-code")).sendKeys("12345");
 
         webDriver.findElement(By.id("continue")).click();
 
