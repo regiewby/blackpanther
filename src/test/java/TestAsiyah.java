@@ -19,5 +19,5 @@ public class TestAsiyah {
       webDriver.findElement(By .id("shopping_chart_container")).click();
       webDriver.findElement(By .id("checkout-button")).click();
         webDriver.close();
-
+    }
 }
