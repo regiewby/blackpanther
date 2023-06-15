@@ -27,6 +27,7 @@ public class TestAga {
         webDriver.findElement(By.id("back-to-products")).click();
         webDriver.findElement(By.id("react-burger-menu-btn")).click();
         webDriver.findElement(By.id("logout_sidebar_link")).click();
+        webDriver.close();
 
     }
 
