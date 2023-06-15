@@ -11,7 +11,6 @@ public class testadib {
 
     public static void main(String[] args) throws MalformedURLException {
 
-        // used for open chrome driver
         WebDriver webDriver = new ChromeDriver();
 
         // used for setup screen browser
