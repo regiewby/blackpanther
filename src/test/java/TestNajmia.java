@@ -26,6 +26,16 @@ public class TestNajmia {
 
         webDriver.findElement(By.id("checkout")).click();
 
+        webDriver.findElement(By.id("first-name")).sendKeys("Najmia");
+
+        webDriver.findElement(By.id("last-name")).sendKeys("Ihv");
+
+        webDriver.findElement(By.id("postal-code")).sendKeys("17145");
+
+        webDriver.findElement(By.id("continue")).click();
+
+        webDriver.findElement(By.id("finish")).click();
+
         webDriver.close();
     }
 }
