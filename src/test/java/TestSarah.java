@@ -26,6 +26,22 @@ public class TestSarah {
 
         webDriver.findElement(By.id("checkout")).click();
 
+        webDriver.findElement(By.id("first-name")).sendKeys("Peter");
+
+        webDriver.findElement(By.id("last-name")).sendKeys("Parker");
+
+        webDriver.findElement(By.id("postal-code")).sendKeys("1234");
+
+        webDriver.findElement(By.id("continue")).click();
+
+        webDriver.findElement(By.id("finish")).click();
+
+        webDriver.findElement(By.id("back-to-products")).click();
+
+        webDriver.findElement(By.id("react-burger-menu-btn")).click();
+
+        webDriver.findElement(By.id("logout_sidebar_link")).click();
+
         webDriver.close();
            }
 }
